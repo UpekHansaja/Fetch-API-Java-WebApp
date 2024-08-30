@@ -1,0 +1,34 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 30, 2024, 9:18:39 AM
+    Author     : upekhansaja
+*/
+
+body{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: monospace;
+    background-color: #333333;
+    color: whitesmoke;
+}
+
+button{
+    padding: 6px 30px;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    font-size: 18px;
+    transition: .3s;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: .3s;
+    background-color: whitesmoke;
+    color: dodgerblue;
+}
